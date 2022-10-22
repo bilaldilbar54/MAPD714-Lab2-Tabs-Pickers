@@ -88,10 +88,10 @@
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfo-gG-Q3u">
-                                <rect key="frame" x="178" y="217" width="75" height="35"/>
+                                <rect key="frame" x="179" y="237" width="72" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Select"/>
                                 <connections>
                                     <action selector="onButtonPressed:" destination="ZAy-lN-4lD" eventType="touchUpInside" id="a1R-Za-gU8"/>
                                 </connections>

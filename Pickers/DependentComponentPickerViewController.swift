@@ -92,7 +92,7 @@ class DependentComponentPickerViewController: UIViewController, UIPickerViewDele
         let zipRow = dependentPicker.selectedRow(inComponent: zipComponent)
         let state = states[stateRow]
         let zip = zips[zipRow]
-        let title = "You selecte3d zip code \(zip)"
+        let title = "You selected zip code \(zip)"
         let message = "\(zip) is in \(state)"
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
