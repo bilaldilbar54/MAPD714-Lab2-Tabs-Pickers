@@ -16,6 +16,12 @@ class DoubleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     private let fillingTypes = ["Ham", "Turkey", "Peanut Butter", "Tuna Salad", "Chicken Salad", "Roast Beef", "Vegemite"]
     private let breadTypes = ["White", "Whole Wheat", "Rye", "Sourdough", "Seven Grain"]
     
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
     //Picker Data Source Methods
     func numberOfComponents(in pickerView: UIPickerView) -> Int
     {
@@ -45,12 +51,6 @@ class DoubleComponentPickerViewController: UIViewController, UIPickerViewDelegat
         {
             return fillingTypes[row]
         }
-    }
-    
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func onButtonPressed(_ sender: Any)

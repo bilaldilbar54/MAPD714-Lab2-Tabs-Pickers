@@ -18,10 +18,9 @@ class DatePickerViewController: UIViewController
         // Do any additional setup after loading the view.
         
         let date = NSDate()
-        datePicker.setDate(date as Date, animated: false)
+        datePicker.setDate(date as Date, animated: true)
     }
     
-
     @IBAction func onButtonPressed(_ sender: Any)
     {
         let date = datePicker.date

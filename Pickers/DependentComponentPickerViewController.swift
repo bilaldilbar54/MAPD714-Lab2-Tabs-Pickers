@@ -31,6 +31,7 @@ class DependentComponentPickerViewController: UIViewController, UIPickerViewDele
         zips = stateZips[selectedState]
     }
     
+    //Picker Data Source Methods
     func numberOfComponents(in pickerView: UIPickerView) -> Int
     {
         2
@@ -48,6 +49,7 @@ class DependentComponentPickerViewController: UIViewController, UIPickerViewDele
         }
     }
     
+    //Picker Delegate Methods
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
     {
         if (component == stateComponent)

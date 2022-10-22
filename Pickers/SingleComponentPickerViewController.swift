@@ -13,6 +13,12 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     
     private let characterNames = ["Luke", "Leia", "Han", "Chewbacca", "Artoo", "Threepio", "Lando"]
     
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
     //Picker Data Source Methods
     func numberOfComponents(in pickerView: UIPickerView) -> Int
     {
@@ -28,12 +34,6 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
     {
         return characterNames[row]
-    }
-
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func onButtonPressed(_ sender: Any)
